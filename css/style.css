@@ -1,12 +1,40 @@
+/***   global   ***/
+h5{
+  margin: 24px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: .035em;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  color: gray;
+}
+li{
+  border-bottom: 1px solid gray;
+}
+
+/***   /global   ***/
+
+
 /***   header   ***/
 header{
-  background-color: lightgray;
+  z-index: 1;
   padding-top: 8px;
   padding-bottom: 0px;
+
 }
 header h5{
   margin-bottom: 6px;
   font-size: 1.25em;
+  display: inline;
+  font-weight: 300;
+}
+.header-column{
+  width: 300px;
+  display: inline;
 }
 #header-left{
   text-align: left;
@@ -19,14 +47,18 @@ header h5{
 }
 /***   /header   ***/
 
-
-main h5{
-  margin: 24px;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: bold;
-  letter-spacing: .035em;
+#hero-image{
+  margin-top: -42px;
+  max-width: 100%;
 }
+@media (min-width: 1170px){
+  #hero-image{
+    width: 2000px;
+  }
+}
+
+
+
 
 /***   post preview   ***/
   .post-preview{
