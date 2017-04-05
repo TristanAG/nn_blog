@@ -1,8 +1,60 @@
+/***   header   ***/
 header{
   background-color: lightgray;
-
   padding-top: 8px;
-
-  text-align: center;
-
+  padding-bottom: 0px;
 }
+header h5{
+  margin-bottom: 6px;
+  font-size: 1.25em;
+}
+#header-left{
+  text-align: left;
+}
+#header-center{
+  text-align: center;
+}
+#header-right{
+  text-align: right;
+}
+/***   /header   ***/
+
+
+main h5{
+  margin: 24px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: .035em;
+}
+
+/***   post preview   ***/
+  .post-preview{
+    margin-top: 20px;
+  }
+  .post-preview a{
+    text-decoration: none;
+    color: black;
+  }
+  .post-preview img{
+    max-width: 100%;
+  }
+  .category{
+    font-weight: bold;
+    font-style: italic;
+    font-size: .8em;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .tagline{
+    font-weight: 300;
+    font-style: italic;
+    color: gray;
+    font-size: 1em;
+  }
+  .sample-text{
+    font-size: .9em;
+  }
+/***   /post preview   ***/
