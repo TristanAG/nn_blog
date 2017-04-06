@@ -118,7 +118,7 @@ header h5{
   }
   .author-by{
     float: left;
-    margin-top: -15px;
+    margin-top: -17px;
     font-size: .8em;
     color: gray;
     font-style: italic;
@@ -127,7 +127,7 @@ header h5{
   }
   .author-name{
     float: right;
-    margin-top: -16px;
+    margin-top: -18px;
     margin-left: 4px;
     display: inline-block;
     font-size: .88em;
@@ -156,7 +156,30 @@ header h5{
     width: 46%;
     float: left;
     margin-right: 5%;
-    margin-bottom: 18%;
+    margin-bottom: 24%;
   }
+
+
+
+  .past-post-preview .author-image-wrapper{
+    width: 30px;
+  }
+  .past-post-preview .author-pic-mini{
+    width: 30px;
+  }
+
+  /*.past-post-preview .author-pic-mini{
+
+    width: 38px;
+  }*/
+  /*
+  .past-post-preview .author-by{
+    margin-top: -7px;
+    float: left;
+  }
+  .past-post-preview .author-name{
+    margin-top: -8px;
+
+  }*/
 
 /***   /post preview   ***/
