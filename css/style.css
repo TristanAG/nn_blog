@@ -69,6 +69,7 @@ header h5{
 /***   post preview   ***/
   .post-preview{
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .post-preview a{
     text-decoration: none;
@@ -96,17 +97,47 @@ header h5{
     font-size: .9em;
   }
 
-  /*small post modifier*/
-  .small-post{
-    width: 280px;
-    max-width: 100%;
+
+  .author-image-wrapper{
+    width: 30px;
+    padding-top: 4px;
+
     display: inline-block;
+
+  }
+  .author-pic-mini{
     max-width: 100%;
+  }
+  .author-text-wrapper{
+    display: inline-block;
+    
+    padding-bottom: 5px;
+
+
+  }
+  .author-by{
+    float: left;
+    margin-top: -15px;
+    font-size: .8em;
+    color: gray;
+    font-style: italic;
+    display: inline-block;
+
+  }
+  .author-name{
+    float: right;
+    margin-top: -16px;
+    margin-left: 4px;
+    display: inline-block;
+    font-size: .88em;
+    color: gray;
 
 
   }
 
-  .mini-block{
+  /*small post modifier*/
+
+  .mini-post-preview{
     border: 1px solid purple;
     height: 250px;
     width: 46.1%;
