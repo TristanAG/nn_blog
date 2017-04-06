@@ -95,4 +95,23 @@ header h5{
   .sample-text{
     font-size: .9em;
   }
+
+  /*small post modifier*/
+  .small-post{
+    width: 280px;
+    max-width: 100%;
+    display: inline-block;
+    max-width: 100%;
+
+
+  }
+
+  .mini-block{
+    border: 1px solid purple;
+    height: 250px;
+    width: 46.1%;
+
+    display: inline-block;
+  }
+
 /***   /post preview   ***/
