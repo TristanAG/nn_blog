@@ -167,19 +167,14 @@ header h5{
       margin-bottom: 14%;
     }
   }
-  @media (max-width: 786px){
-    .past-post-preview .past-post-image{
-      margin-bottom: 23%;
-    }
-  }
-  @media (max-width: 749px){
+  @media (max-width: 800px){
     .past-post-preview .past-post-image{
       margin-bottom: 0%;
     }
   }
   @media (max-width: 603px){
     .past-post-preview .past-post-image{
-      margin-bottom: 22%;
+      margin-bottom: 16%;
     }
   }
 /***   /post preview   ***/
