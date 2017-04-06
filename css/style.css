@@ -110,7 +110,7 @@ header h5{
   }
   .author-text-wrapper{
     display: inline-block;
-    
+
     padding-bottom: 5px;
 
 
@@ -138,7 +138,7 @@ header h5{
   /*small post modifier*/
 
   .mini-post-preview{
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     height: 250px;
     width: 46.1%;
 
