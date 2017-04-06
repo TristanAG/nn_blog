@@ -148,38 +148,38 @@ header h5{
 
   .past-post-preview{
     /*border: 1px solid purple;*/
-    height: 250px;
-  }
+    /*height: 250px;*/
+    margin-bottom: 24px;
 
-  .past-post-preview img{
+    float: right;
+  }
+  .past-post-preview .past-post-image{
     /*width: 288px;*/
+
     width: 46%;
     float: left;
     margin-right: 5%;
-    margin-bottom: 24%;
+
+    margin-bottom: 6%;
   }
-
-
-
-  .past-post-preview .author-image-wrapper{
-    width: 30px;
+  @media (max-width: 920px){
+    .past-post-preview .past-post-image{
+      margin-bottom: 14%;
+    }
   }
-  .past-post-preview .author-pic-mini{
-    width: 30px;
+  @media (max-width: 786px){
+    .past-post-preview .past-post-image{
+      margin-bottom: 23%;
+    }
   }
-
-  /*.past-post-preview .author-pic-mini{
-
-    width: 38px;
-  }*/
-  /*
-  .past-post-preview .author-by{
-    margin-top: -7px;
-    float: left;
+  @media (max-width: 749px){
+    .past-post-preview .past-post-image{
+      margin-bottom: 0%;
+    }
   }
-  .past-post-preview .author-name{
-    margin-top: -8px;
-
-  }*/
-
+  @media (max-width: 603px){
+    .past-post-preview .past-post-image{
+      margin-bottom: 22%;
+    }
+  }
 /***   /post preview   ***/
