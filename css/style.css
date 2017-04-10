@@ -26,9 +26,7 @@ ul{
   font-style: italic;
   color: gray;
 }
-li{
-  border-bottom: 1px solid gray;
-}
+
 
 /***   /global   ***/
 
@@ -71,6 +69,23 @@ header h5{
   }
 }
 
+/***   category   ***/
+.category-sidebar{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #888;
+  font-size: 1em;
+}
+
+.hr-category{
+  border-top: 1px dashed #888;
+  margin-top: 9px;
+  width: 800px;
+  max-width: 100%;
+
+}
+/***   /category   ***/
 
 
 
@@ -108,7 +123,7 @@ header h5{
     font-style: italic;
     color: #888;
     font-size: 1em;
-    letter-spacing: .02em;
+    letter-spacing: .04em;
   }
   .sample-text{
     font-family: 'Lora', serif;
@@ -133,14 +148,19 @@ header h5{
     display: inline-block;
 
     padding-bottom: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+
     color: #2f2f2f;
-    font-size: .73em;
-    letter-spacing: .02em;
+    font-size: .71em;
+
 
   }
   .author-by{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+
+
     float: left;
     margin-top: -17px;
 
@@ -150,6 +170,9 @@ header h5{
 
   }
   .author-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: .11em;
     float: right;
     margin-top: -17px;
     margin-left: 4px;
