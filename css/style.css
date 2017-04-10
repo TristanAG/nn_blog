@@ -33,11 +33,16 @@ ul{
 
 /***   header   ***/
 header{
-  z-index: 1;
+  position: absolute;
+  z-index: 2;
   padding-top: 8px;
   padding-bottom: 0px;
+  background-color: green;
 
 }
+
+
+
 header h5{
   font-family: 'Montserrat', sans-serif;
   color: #000;
@@ -72,17 +77,22 @@ header h5 i{
   display: inline-block;
 
 }
-/***   /header   ***/
+
 
 #hero-image{
-  margin-top: -42px;
+  z-index: 0;
+  /*margin-top: -81px;*/
   max-width: 100%;
 }
 @media (min-width: 1170px){
   #hero-image{
+
+    z-index: 1;
     width: 2000px;
   }
 }
+/***   /header   ***/
+
 
 /***   category   ***/
 .category-sidebar{
