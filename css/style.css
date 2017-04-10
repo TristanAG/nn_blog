@@ -88,8 +88,10 @@ header h5{
 
   }
   .category{
-    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-weight: 700;
     font-style: italic;
+    color: #000;
     font-size: .8em;
   }
   .title{
@@ -101,13 +103,19 @@ header h5{
     font-size: 1.1em;
   }
   .tagline{
-    font-weight: 300;
+    font-family: 'Lora', serif;
+    font-weight: 400;
     font-style: italic;
-    color: gray;
+    color: #888;
     font-size: 1em;
+    letter-spacing: .02em;
   }
   .sample-text{
-    font-size: .9em;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #2f2f2f;
+    font-size: .84em;
+    letter-spacing: .01em;
   }
 
 
@@ -125,15 +133,19 @@ header h5{
     display: inline-block;
 
     padding-bottom: 5px;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #2f2f2f;
+    font-size: .73em;
+    letter-spacing: .02em;
 
   }
   .author-by{
     float: left;
-    margin-top: -16px;
-    font-size: .8em;
-    color: gray;
-    font-style: italic;
+    margin-top: -17px;
+
+
+
     display: inline-block;
 
   }
@@ -142,8 +154,8 @@ header h5{
     margin-top: -17px;
     margin-left: 4px;
     display: inline-block;
-    font-size: .88em;
-    color: gray;
+
+
 
 
   }
