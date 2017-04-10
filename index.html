@@ -15,7 +15,6 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i|Montserrat:400,500,600" rel="stylesheet">
 
   <!-- CSS
@@ -28,9 +27,25 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+
 </head>
 <body>
+  <!-- <script>
+    var width = $(window).width();
 
+    $( window ).resize(function() {
+        width = $(window).width();
+        console.log(width); //400
+
+        if(width <= 400){
+          console.log('we low dawwg')
+        }
+      });
+  </script> -->
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header>
@@ -82,6 +97,10 @@
               </div>
             </div>
 
+
+<!-- 2 SIDE BY SIDE PREVIOUS POSTS -->
+
+          <div id="full-view-mini-post">
             <div class="mini-post-preview" style="margin-right: 5.8%">
               <div class="post-preview">
                 <a href="#">
@@ -91,8 +110,7 @@
                   <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
                   <div class="sample-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
-                    finibus tincidunt tellus. Praesent non arcu sed libero imperdiet fringilla nec eget enim. Aliquam vehicula
-                    justo eu suscipit aliquam. Nam quis eros eget mi volutpat consectetur. Interdum et ...
+                    finibus tincidunt tellus. Praesent ...
                   </div>
                   </a>
                 <div class="author-image-wrapper">
@@ -113,8 +131,7 @@
                   <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
                   <div class="sample-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
-                    finibus tincidunt tellus. Praesent non arcu sed libero imperdiet fringilla nec eget enim. Aliquam vehicula
-                    justo eu suscipit aliquam. Nam quis eros eget mi volutpat consectetur. Interdum et ...
+                    finibus tincidunt tellus. Praesent ...
                   </div>
                   </a>
                 <div class="author-image-wrapper">
@@ -125,6 +142,55 @@
                 </div>
               </div>
             </div>
+          </div>
+
+          <div id="small-view-mini-posts">
+            <div class="past-post-preview">
+              <div class="post-preview">
+                <a href="#">
+                  <img src="images/sample2.jpg" />
+                  <div class="category">Big Picture</div>
+                  <div class="title">REFUSE, REDUCE, REUSE:</div>
+                  <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
+                  <div class="sample-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
+                    finibus tincidunt tellus. Praesent ...
+                  </div>
+                  </a>
+                <div class="author-image-wrapper">
+                  <img src="images/author.png" class="author-pic-mini"/>
+                </div>
+                <div class="author-text-wrapper">
+                  <div class="author-by">by</div> <div class="author-name">Tristan Gruener</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="past-post-preview">
+              <div class="post-preview">
+                <a href="#">
+                  <img src="images/sample2.jpg" />
+                  <div class="category">Big Picture</div>
+                  <div class="title">REFUSE, REDUCE, REUSE:</div>
+                  <div class="tagline">10 Things We Can All Do to Clean Up Our Oceans</div>
+                  <div class="sample-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, cursus quis accumsan vitae,
+                    finibus tincidunt tellus. Praesent ...
+                  </div>
+                  </a>
+                <div class="author-image-wrapper">
+                  <img src="images/author.png" class="author-pic-mini"/>
+                </div>
+                <div class="author-text-wrapper">
+                  <div class="author-by">by</div> <div class="author-name">Tristan Gruener</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+<!-- ALL PAST POSTS LISTED BELOW -->
+
 
             <h5>PAST POSTS</h5>
 
@@ -206,23 +272,14 @@
 
         <div class="four columns">
 
-            <h5>CATEGORIES</h5>
+            <h5>ARCHIVES</h5>
             <ul>
               <li class="category-sidebar">Big Picture</li>
               <hr class="hr-category" />
               <li class="category-sidebar">Big Picture</li>
+              <hr class="hr-category" />
               <li class="category-sidebar">Big Picture</li>
             </ul>
-
-            <h5>ARCHIVES</h5>
-            <ul>
-              <li class="category-sidebar">Big Picture</li>
-              <li class="category-sidebar">Big Picture</li>
-              <li class="category-sidebar">Big Picture</li>
-            </ul>
-
-            <h5>INSTAGRAM</h5>
-
 
         </div>
       </div>
