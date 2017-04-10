@@ -49,13 +49,22 @@ header h5{
   display: inline;
 }
 #header-left{
+  width: 32.4%;
   text-align: left;
+  display: inline-block;
+
 }
 #header-center{
+  width: 32.4%;
   text-align: center;
+  display: inline-block;
+
 }
 #header-right{
+  width: 32.4%;
   text-align: right;
+  display: inline-block;
+
 }
 /***   /header   ***/
 
