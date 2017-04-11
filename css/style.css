@@ -4,6 +4,11 @@ body{
   color: #000;
 }
 
+p{
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
 a{
   color: #888;
   text-decoration: none;
@@ -151,7 +156,7 @@ ul{
   font-size: 1em;
   letter-spacing: .04em;
 }
-.sample-text{
+p{
   font-family: 'Lora', serif;
   font-weight: 400;
   font-size: .84em;
