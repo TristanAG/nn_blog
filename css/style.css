@@ -4,6 +4,10 @@ body{
   color: #000;
 }
 
+img{
+  max-width: 100%;
+}
+
 p{
   margin-top: 6px;
   margin-bottom: 12px;
@@ -129,10 +133,6 @@ ul{
 .post-preview a:hover{
   text-decoration: underline;
 }
-.post-preview img{
-  max-width: 100%;
-
-}
 .category{
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -175,6 +175,29 @@ p{
 .author-pic-mini{
   max-width: 100%;
 }
+
+#author-text-wrapper-full{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+  color: #2f2f2f;
+  font-size: .82em;
+  letter-spacing: .11em;
+  text-align: center;
+}
+#author-text-wrapper-full #date{
+  font-size: .78em;
+}
+#author-text-wrapper-full img{
+  width: 45px;
+  padding: 4px;
+  max-width: 100%;
+}
+#author-text-wrapper-full #social i{
+  margin: 6px;
+}
+
+
 .author-text-wrapper{
   display: inline-block;
   color: #2f2f2f;
