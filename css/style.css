@@ -245,6 +245,49 @@ p{
   }
 }
 
+.mini-mini-post-preview{
+  height: 210px;
+  width: 45.5%;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+@media(max-width: 1143px){
+  .mini-mini-post-preview{
+    margin-bottom: 40px;
+  }
+}
+@media(max-width: 799px){
+  .mini-mini-post-preview{
+    margin-bottom: 80px;
+  }
+}
+@media(max-width: 547px){
+  .mini-mini-post-preview{
+    margin-bottom: 40px;
+  }
+}
+
+.mini-mini-post-preview img{
+  max-width: 100%;
+}
+.mini-mini-post-preview .text-wrapper{
+  float: left;
+}
+.mini-mini-post-preview h5{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 0px;
+  text-align: left;
+
+}
+.mini-mini-post-preview:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
 .past-post-preview{
   margin-bottom: 24px;
   float: right;
