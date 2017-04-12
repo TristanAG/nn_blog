@@ -42,13 +42,20 @@ hr{
 
 /***   header   ***/
 header{
-  position: absolute;
+  position: fixed;
   z-index: 2;
-  padding-top: 12px;
-  padding-bottom: 0px;
+
   width: 100%;
-
-
+  background-color: #000;
+  opacity: .4;
+  height: 56px;
+  border-bottom: 1px solid #888;
+}
+#header-content{
+  position: fixed;
+  margin-top: 3px;
+  z-index: 3;
+  width: 100%;
 }
 #post-header{
   position: relative;
@@ -57,16 +64,21 @@ header{
   color: #2f2f2f;
 }
 
+#logo{
+  width: 48px;
+  vertical-align: middle;
 
-header h5{
+}
+
+#header-content h5{
   font-family: 'Montserrat', sans-serif;
-  color: #000;
+  color: white;
   letter-spacing: .06em;
   font-size: 1.1em;
   display: inline;
 }
 
-header h5 i{
+#header-content h5 i{
   margin-left: 22px;
 }
 
@@ -79,23 +91,28 @@ header h5 i{
   width: 32.4%;
   text-align: left;
   display: inline-block;
+
 }
 
 #header-center{
   width: 32.4%;
   text-align: center;
   display: inline-block;
+
+
+
 }
 
 #header-right{
   width: 32.4%;
   text-align: right;
   display: inline-block;
+
 }
 
 #hero-image{
   z-index: 0;
-  /*margin-top: -81px;*/
+
   max-width: 100%;
 }
 @media (min-width: 1170px){
