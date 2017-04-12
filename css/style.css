@@ -58,10 +58,12 @@ header{
   width: 100%;
 }
 #post-header{
-  position: relative;
 
+  background-color: lightblue;
+  /*position: relative;
+  background-color: lightblue;
   height: 38px;
-  color: #2f2f2f;
+  color: #2f2f2f;*/
 }
 
 #logo{
@@ -71,7 +73,7 @@ header{
 
 }
 
-#header-content h5{
+#header-content, #post-header h5{
   font-family: 'Montserrat', sans-serif;
   color: white;
   letter-spacing: .06em;
@@ -80,7 +82,7 @@ header{
 
 }
 
-#header-content h5 i{
+#header-content, #post-header h5 i{
   margin-left: 22px;
 }
 
