@@ -47,26 +47,27 @@ header{
 
   width: 100%;
   background-color: #000;
-  opacity: .4;
-  height: 56px;
-  border-bottom: 1px solid #888;
+  opacity: .7;
+  height: 50px;
+
 }
 #header-content{
   position: fixed;
-  margin-top: 3px;
+  margin-top: 6px;
   z-index: 3;
   width: 100%;
 }
 #post-header{
   position: relative;
-  border-bottom: 1px solid #888;
+
   height: 38px;
   color: #2f2f2f;
 }
 
 #logo{
-  width: 48px;
+  width: 38px;
   vertical-align: middle;
+
 
 }
 
@@ -74,8 +75,9 @@ header{
   font-family: 'Montserrat', sans-serif;
   color: white;
   letter-spacing: .06em;
-  font-size: 1.1em;
+  font-size: 1em;
   display: inline;
+
 }
 
 #header-content h5 i{
@@ -91,6 +93,7 @@ header{
   width: 32.4%;
   text-align: left;
   display: inline-block;
+
 
 }
 
