@@ -12,11 +12,13 @@ p{
   margin-top: 6px;
   margin-bottom: 12px;
 }
+p a{
+  text-decoration: underline;
+}
 
 a{
   color: #888;
   text-decoration: none;
-  transition: .4s;
 }
 a:hover{
   color: #000;
