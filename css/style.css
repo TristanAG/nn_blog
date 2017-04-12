@@ -59,7 +59,8 @@ header{
 }
 #post-header{
 
-  background-color: lightblue;
+  background-color: lightgray;
+  border-bottom: 1px solid #000;
   /*position: relative;
   background-color: lightblue;
   height: 38px;
