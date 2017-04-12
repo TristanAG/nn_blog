@@ -42,17 +42,17 @@ hr{
 
 /***   header   ***/
 header{
-  position: fixed;
+  position: absolute;
   z-index: 2;
 
   width: 100%;
-  background-color: #000;
-  opacity: .2;
+
+
   height: 44px;
 
 }
 #header-content{
-  position: fixed;
+  position: absolute;
   margin-top: 2px;
   z-index: 3;
   width: 100%;
@@ -65,7 +65,7 @@ header{
 }
 
 #logo{
-  width: 38px;
+  width: 44px;
   vertical-align: middle;
 
 
