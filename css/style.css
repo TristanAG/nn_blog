@@ -93,24 +93,43 @@ header{
   width: 32.4%;
   text-align: left;
   display: inline-block;
-
-
 }
-
 #header-center{
   width: 32.4%;
   text-align: center;
   display: inline-block;
-
-
-
 }
-
 #header-right{
   width: 32.4%;
   text-align: right;
   display: inline-block;
-
+}
+@media (max-width: 570px){
+  #header-right{
+    display: none;
+  }
+  #header-left{
+    width: 49%;
+  }
+  #header-center{
+    width: 49%;
+    text-align: right;
+  }
+}
+@media (max-width: 250px){
+  #header-right{
+    display: none;
+  }
+  #header-left{
+    width: 76%;
+  }
+  #menu-button-text{
+    display: none;
+  }
+  #header-center{
+    width: 18%;
+    text-align: right;
+  }
 }
 
 #hero-image{
