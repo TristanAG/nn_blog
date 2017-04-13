@@ -13,15 +13,16 @@ p{
   margin-bottom: 12px;
 }
 p a{
+  color: #004680;
   text-decoration: underline;
 }
 
 a{
-  color: #888;
+  color: #004680;
   text-decoration: none;
 }
 a:hover{
-  color: #000;
+  color: #002747;
 }
 
 h5{
@@ -59,8 +60,8 @@ header{
 }
 #post-header{
 
-  background-color: lightgray;
-  border-bottom: 1px solid #000;
+  background-color: #f4f5f7;
+  border-bottom: 1px solid #dedfe2;
   /*position: relative;
   background-color: lightblue;
   height: 38px;
@@ -76,7 +77,7 @@ header{
 
 #header-content h5, #post-header h5{
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #004680;
   letter-spacing: .06em;
   font-size: 1em;
   display: inline;
