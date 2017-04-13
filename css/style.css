@@ -83,7 +83,7 @@ header{
   letter-spacing: .06em;
   font-size: 1em;
   display: inline;
-  
+
 }
 
 #header-content h5 i, #post-header h5 i{
@@ -112,18 +112,17 @@ header{
 }
 @media (max-width: 570px){
   #header-right{
-    display: none;
+    width: 49%;
   }
   #header-left{
     width: 49%;
   }
   #header-center{
-    width: 49%;
-    text-align: right;
+    display: none;
   }
 }
 @media (max-width: 250px){
-  #header-right{
+  /*#header-right{
     display: none;
   }
   #header-left{
@@ -135,7 +134,7 @@ header{
   #header-center{
     width: 18%;
     text-align: right;
-  }
+  }*/
 }
 
 #hero-image{
