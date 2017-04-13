@@ -110,6 +110,10 @@ header{
   text-align: right;
   display: inline-block;
 }
+#mobile-menu, #mobile-menu ul{
+  text-align: right;
+}
+
 @media (max-width: 570px){
   #header-right{
     width: 49%;
