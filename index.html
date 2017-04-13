@@ -20,6 +20,28 @@
   <!-- FONT AWESOME -->
   <script src="https://use.fontawesome.com/8757483b81.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+  console.log('heys')
+    $( document ).ready( function() {
+      //init state
+      var visible = false
+      $( '#mobile-menu' ).hide()
+
+      $( '#menu-display' ).click(function () {
+        console.log('click')
+        if( !visible ){
+          visible = true
+          $( '#mobile-menu' ).slideDown( 'fast' )
+        } else {
+          visible = false
+          $( '#mobile-menu' ).slideUp( 'fast' )
+        }
+      })
+    })
+  </script>
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -36,11 +58,11 @@
 <body>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="header-content">
+  <div id="post-header">
     <div class="container">
       <div class="row">
         <div id="header-left">
-          <h5 id="menu-display"><i class="fa fa-bars" aria-hidden="true"></i> <span id="menu-button-text">MENU</span></h5>
+          <h5 id="menu-display"><a id="menu-display"><i class="fa fa-bars" aria-hidden="true" style="margin-left: 0px"></i> <span id="menu-button-text">MENU</span></a></h5>
         </div>
 
         <div id="header-center">
@@ -52,15 +74,25 @@
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
             <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
           </h5>
         </div>
+        <div id="mobile-menu">
+          <a href="index.html"><h5>LATEST POSTS</h5></a>
 
+          <ul>
+            <li class="category-sidebar"><a href="refuse-reduce-reuse.html">Refuse, Reduce, Reuse</a></li>
+
+            <li class="category-sidebar"><a href="#">Big Picture</a></li>
+
+            <li class="category-sidebar"><a href="#">Big Picture</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
-  <header></header>
+  <!-- <header></header> -->
 
   <div class="hero-image">
     <img src="images/NN-hp-1A-compressor.jpg" id="hero-image" />
@@ -73,7 +105,7 @@
 
         <h5>LATEST POSTS</h5>
         <hr />
-        
+
         <div class="post-preview">
           <a href="refuse-reduce-reuse.html">
             <img src="images/refuse-reduce-reuse-compressor.jpg" />
