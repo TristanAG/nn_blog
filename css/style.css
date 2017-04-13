@@ -53,13 +53,15 @@ header{
 
 }
 #header-content{
-  position: absolute;
+  position: fixed;
   margin-top: 2px;
   z-index: 3;
   width: 100%;
 }
 #post-header{
-
+  position: fixed;
+  z-index: 2;
+  width: 100%;
   background-color: #f4f5f7;
   border-bottom: 1px solid #dedfe2;
   /*position: relative;
