@@ -8,10 +8,7 @@ img{
   max-width: 100%;
 }
 
-p{
-  margin-top: 22px;
-  margin-bottom: 22px;
-}
+
 p a{
   color: #004680;
   text-decoration: underline;
@@ -31,7 +28,7 @@ h5{
   letter-spacing: .06em;
   margin-top: 24px;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 hr{
@@ -85,7 +82,7 @@ header{
   font-family: 'Montserrat', sans-serif;
   color: #004680;
   letter-spacing: .06em;
-  font-size: 1em;
+  font-size: 1.1em;
   display: inline;
 
 
@@ -212,7 +209,7 @@ ul{
   font-weight: 700;
   font-style: italic;
   color: #000;
-  font-size: .8em;
+  font-size: 1em;
 }
 b{
   font-family: 'Lora', serif;
@@ -227,23 +224,24 @@ b{
   letter-spacing: .02em;
   color: #000;
 
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .tagline{
   font-family: 'Lora', serif;
   font-weight: 400;
   font-style: italic;
   color: #888;
-  font-size: 1em;
+  font-size: 1.1em;
   letter-spacing: .04em;
 }
 p{
   font-family: 'Lora', serif;
   font-weight: 400;
   /*font-size: .84em;*/
-  font-size: 14px;
+  font-size: 16px;
   color: #2f2f2f;
   letter-spacing: .01em;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
