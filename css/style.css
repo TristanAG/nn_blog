@@ -73,6 +73,8 @@ header{
   box-shadow: 0px -9px 26px 2px rgba(164,163,186,1);
 }
 
+
+
 #logo{
   width: 44px;
   vertical-align: middle;
@@ -129,6 +131,7 @@ header{
 #menu-display{
   padding-top: 6px;
   padding-bottom: 6px;
+
 }
 #mobile-menu{
   padding-top: 8px;
@@ -477,3 +480,12 @@ p{
   }
 }
 /***   /post preview   ***/
+
+#mobile-menu h5{
+  color: #f4f5f7;
+}
+#mobile-menu a{
+  
+    color: #f4f5f7;
+
+}
