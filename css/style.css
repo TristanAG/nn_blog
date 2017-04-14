@@ -31,6 +31,8 @@ h5{
   font-size: 1.2em;
 }
 
+
+
 hr{
   border-top: 2px solid #000;
   width: 20px;
@@ -89,8 +91,17 @@ header{
 }
 
 #header-content h5 i, #post-header h5 i{
-  margin-left: 22px;
+
 }
+
+.social-icons{ text-align: right }
+.social-icons i{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 
 .header-column{
   width: 300px;
@@ -348,7 +359,7 @@ p{
 }
 
 .mini-post-preview{
-  height: 250px;
+  vertical-align: top;
   width: 46.1%;
   display: inline-block;
 }
