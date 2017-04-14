@@ -166,6 +166,33 @@ header{
   }
 }
 /***   /header   ***/
+.desktop-image-mod{
+  display: block;
+}
+.mobile-image-mod{
+  display: none;
+  text-align: center;
+}
+.mobile-image-mod hr{
+  margin-bottom: 10px;
+}
+.mobile-image-mod .tagline{
+  margin-bottom: 12px;
+}
+@media (max-width: 799px){
+  .desktop-image-mod{
+    display: none;
+  }
+  .mobile-image-mod{
+    display: block;
+  }
+  /*.full-width-image-mod{
+    display: block;
+  }
+  .regular-width-image-mod{
+    display: none;
+  }*/
+}
 
 /***   category   ***/
 .category-sidebar{
