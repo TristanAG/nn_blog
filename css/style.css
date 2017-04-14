@@ -293,6 +293,7 @@ p{
   letter-spacing: .11em;
   text-align: center;
   display: block;
+  margin-bottom: -32px;
 }
 #author-text-wrapper-full #date{
   font-size: .78em;
@@ -303,7 +304,8 @@ p{
   max-width: 100%;
 }
 #author-text-wrapper-full #social i{
-  margin: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 
