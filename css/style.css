@@ -92,9 +92,7 @@ header{
 
 }
 
-#header-content h5 i, #post-header h5 i{
 
-}
 
 .social-icons{ text-align: right }
 .social-icons i{
@@ -103,7 +101,6 @@ header{
   margin-top: 4px;
   margin-bottom: 4px;
 }
-
 
 .header-column{
   width: 300px;
@@ -422,10 +419,6 @@ p{
   text-decoration: underline;
 }
 
-
-
-
-
 .past-post-preview{
   margin-bottom: 24px;
   float: right;
@@ -485,7 +478,8 @@ p{
   color: #f4f5f7;
 }
 #mobile-menu a{
-  
-    color: #f4f5f7;
-
+  color: #f4f5f7;
+}
+#mobile-menu a:hover{
+  text-decoration: underline;
 }
