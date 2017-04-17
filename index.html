@@ -6,8 +6,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Naturally Speaking Blog | Nordic Naturals</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Naturally Speaking is a new blog from Nordic Naturals, featuring our team’s personal, scientific, and even humorous views on health and well-being.">
+  <meta name="author" content="Nordic Naturals">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -17,20 +17,26 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i|Montserrat:400,500,600" rel="stylesheet">
 
-  <!-- FONT AWESOME -->
-  <script src="https://use.fontawesome.com/8757483b81.js"></script>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://use.fontawesome.com/8757483b81.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script>
-  console.log('heys')
     $( document ).ready( function() {
-      //init state
       var visible = false
       $( '#mobile-menu' ).hide()
-
       $( '#menu-display' ).click(function () {
-        console.log('click')
         if( !visible ){
           visible = true
           $( '#mobile-menu' ).slideDown( 'fast' )
@@ -42,15 +48,8 @@
     })
   </script>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+
 
 
 
