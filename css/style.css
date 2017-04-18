@@ -257,7 +257,7 @@ b{
   font-weight: 700;
   font-style: italic;
   color: #000;
-  font-size: .9em;
+  font-size: 16px;
 }
 .title{
   font-family: 'Montserrat', sans-serif;
@@ -322,7 +322,7 @@ p{
   color: #2f2f2f;
   font-size: .82em;
   letter-spacing: .11em;
-  
+
   display: block;
 
 }
@@ -553,4 +553,12 @@ footer .social-icons h5 i{
 
 }
 
-iframe{ position: relative; height: 0; overflow: hidden; max-width: 100%; height: 400px;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+iframe{
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  width: 540px;
+  height: 300px;
+  max-width: 100%;
+  padding-top: 24px;
+  } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
