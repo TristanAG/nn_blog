@@ -47,6 +47,22 @@
       })
     })
   </script>
+  <script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top - 74
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
 
 </head>
 <body>
@@ -134,15 +150,16 @@
             <!-- </div> -->
           </div>
         <!-- <div id="post"> -->
-
-
         </div>
         <p>
-          Name: Jonna Paiss<br />
-
-Role: Consumer Sales and Education Representative<br />
-
-Years with Nordic Naturals: 5
+          <i>
+          If you happen to call Nordic Naturals to place an order or ask a product question, there’s a good chance you’ll find yourself chatting with the unforgettable Jonna Paiss. We asked Jonna to be the subject of our first employee spotlight, and she graciously accepted. Read our interview with Jonna here, and <a href="#video">watch her answer our parting question on video</a>.
+          </i>
+        </p>
+        <p>
+          <b>Name:</b> Jonna Paiss<br />
+          <b>Role:</b> Consumer Sales and Education Representative<br />
+          <b>Years with Nordic Naturals:</b> 5
         </p>
         <p>
           <b>What do you do at Nordic Naturals, and what do you like best about your job?</b>
@@ -178,7 +195,7 @@ Years with Nordic Naturals: 5
           <b>What Nordic Naturals products do you take?</b>
         </p>
         <p>
-          I currently take Omega Curcumin, EPA with concentrated GLA, vitamin D3, and Nordic Flora Probiotic Daily. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 mg EPA+DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and Omega Vision, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my god! I guess I was bloated! Because I felt an immediate difference. (laughs)
+          I currently take <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1746" target="_none">Omega Curcumin</a>, <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1414" target="_none">EPA</a> with concentrated <a href="http://www.nordicnaturals.com/en/Products/Product_Details/514/?ProdID=1647" target="_none">GLA</a>, <a href="http://www.nordicnaturals.com/en/General_Public/Vitamin_D3_formulas/365" target="_none">vitamin D3</a>, and Nordic Flora Probiotic Daily. Over the years I’ve tried a lot of different formulations, but in general I try to take 2000 mg EPA and DHA daily. In the winter especially, I take vitamin D3 regularly. And I supplement with other products, like Omega Curcumin and <a href="http://www.nordicnaturals.com/en/General_Public/Eye_Health/1231" target="_none">Omega Vision</a>, depending on whatever issue I may be trying to address. When I first tried our Nordic Flora probiotics, I was like, oh my God! I guess I was bloated! Because I felt an immediate difference. (laughs)
         </p>
         <p>
           <b>What is something about you that few people know? Do you have a hidden talent?</b>
@@ -193,14 +210,14 @@ Years with Nordic Naturals: 5
           Yes, I do like to sew and knit and do crafty things. I’m really into making costumes right now. And a lot of people don’t know this, but I’m actually a good cook. I developed some pretty good cooking skills in college—whisking and stirring, those are my hidden talents. And talking and enjoying good food with friends.
         </p>
         <p>
-          <b>We talk a lot about health here at Nordic Naturals. What does living “healthfully” mean to you?</b>
+          <b>We talk a lot about health here at Nordic Naturals. What does "living healthfully” mean to you?</b>
         </p>
         <p>
           To me “living healthfully” is a state of mind. It’s about striving for harmony and balance in your life. We have a saying in Denmark: “Everything in moderation, including moderation.” I think it’s important to pick your battles in life, and focus on what gives you enjoyment. Otherwise it’s really easy to get frustrated and feel powerless. I guess you could say I try not to sweat the small stuff.
         <p>
         <p>
           <b>Video Question: You’re from Denmark. Explain “hygge” to us.</b>
-          <iframe src="https://player.vimeo.com/video/212996319?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe id="video" src="https://player.vimeo.com/video/212996319?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </p>
 
             <h5 style="margin-top: 62px;">YOU MAY ALSO LIKE</h5>

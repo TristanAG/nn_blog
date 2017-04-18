@@ -383,10 +383,13 @@ p{
   font-family: 'Lora', serif;
   font-weight: 400;
 
-  font-size: 12px;
+  font-size: 11px;
   color: #2f2f2f;
   letter-spacing: .01em;
 
+}
+.embedded-image a{
+  text-decoration: underline;
 }
 .right{
   float: right;
