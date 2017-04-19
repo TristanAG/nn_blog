@@ -286,10 +286,16 @@ p{
   margin-bottom: 10px;
 }
 
-
+.author-image{
+  width: 32%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 6%;
+  border-radius: 50%;
+}
 .author-image-wrapper{
   width: 48px;
-  padding-top: 4px;
+  margin-bottom: -20px;
   display: inline-block;
 }
 
