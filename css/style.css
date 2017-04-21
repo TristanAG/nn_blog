@@ -102,6 +102,25 @@ h5 i:hover{
   margin-bottom: 4px;
 }
 
+.social-sharing{
+  text-align: right;
+}
+.social-sharing i{
+  font-size: 1.8em;
+  margin-left: 14px;
+}
+
+.social-sharing .fa-facebook-square{
+  color: #3b5998;
+}
+.social-sharing .fa-twitter-square{
+  color: #4099FF;
+}
+.social-sharing .fa-envelope{
+  /*color: #064880;*/
+  color: #cccccc;
+}
+
 .header-column{
   width: 300px;
   display: inline;
