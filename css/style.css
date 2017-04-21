@@ -8,7 +8,9 @@ img{
   max-width: 100%;
 }
 
-
+.category-sidebar a{
+  text-decoration: none;
+}
 p a{
   color: #004680;
   text-decoration: underline;
@@ -16,10 +18,11 @@ p a{
 
 a{
   color: #004680;
-  text-decoration: none;
+
 }
 a:hover{
   color: #002747;
+  text-decoration: underline;
 }
 
 h5{
@@ -261,9 +264,9 @@ ul{
   text-decoration: none;
   color: black;
 }
-.post-preview a:hover{
+/*.post-preview a:hover{
   text-decoration: underline;
-}
+}*/
 .category{
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -428,6 +431,20 @@ p{
   width: 46.1%;
   display: inline-block;
 }
+
+.read-more{
+  margin-top: -10px;
+}
+.read-more p{
+  text-align: left;
+  transition: .3s;
+  color: gray;
+}
+.post-preview a:hover .read-more p{
+  color: #064880;
+  font-weight: bold;
+}
+
 @media (min-width: 401px){
   #full-view-mini-post{
     display: block;
@@ -506,13 +523,13 @@ p{
   margin-bottom: 24px;
   float: right;
 }
-.past-post-preview a{
+/*.past-post-preview a{
   text-decoration: none;
   color: black;
-}
-.past-post-preview a:hover{
+}*/
+/*.past-post-preview a:hover{
   text-decoration: underline;
-}
+}*/
 
 .past-post-preview .past-post-image{
   width: 46%;
