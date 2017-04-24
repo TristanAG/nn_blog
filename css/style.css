@@ -1,6 +1,5 @@
 /***   global   ***/
 body{
-
   color: #000;
 }
 
@@ -11,14 +10,9 @@ img{
 .category-sidebar a{
   text-decoration: none;
 }
-p a{
-  color: #004680;
-  text-decoration: underline;
-}
 
 a{
   color: #004680;
-
 }
 a:hover{
   color: #002747;
@@ -34,8 +28,6 @@ h5{
   font-size: 1.2em;
 }
 
-
-
 hr{
   border-top: 2px solid #000;
   width: 20px;
@@ -47,12 +39,8 @@ hr{
 header{
   position: absolute;
   z-index: 2;
-
   width: 100%;
-
-
   height: 44px;
-
 }
 #header-content{
   position: fixed;
@@ -76,6 +64,9 @@ header{
   box-shadow: 0px -9px 26px 2px rgba(164,163,186,1);
 }
 
+#post-header a{
+  text-decoration: none;
+}
 
 
 #logo{
@@ -158,6 +149,10 @@ h5 i:hover{
 
 }
 
+#mobile-menu a{
+  text-decoration: none;
+}
+
 #mobile-menu, #mobile-menu ul{
   text-align: right;
 }
@@ -208,6 +203,7 @@ h5 i:hover{
 .mobile-image-mod{
   display: none;
   text-align: center;
+  margin-left: -1px;
 }
 .mobile-image-mod hr{
   margin-bottom: 10px;
@@ -484,6 +480,9 @@ p{
   display: inline-block;
   margin-bottom: 80px;
 }
+.mini-mini-post-preview a{
+  text-decoration: none;
+}
 
 @media(max-width: 1143px){
   .mini-mini-post-preview{
@@ -516,7 +515,7 @@ p{
 
 }
 .mini-mini-post-preview:hover{
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .past-post-preview{
