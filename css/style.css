@@ -305,10 +305,14 @@ p{
 }
 
 .author-image{
-  width: 32%;
+  width: 160px;
+  /*width: 32%;*/
   float: left;
   margin-right: 5%;
-  margin-bottom: 6%;
+
+  margin-top: 20px;
+
+
   border-radius: 50%;
 }
 .author-image-wrapper{
@@ -323,6 +327,10 @@ p{
 }
 .author-pic-full{
   border-radius: 50%;
+}
+
+.author-bio{
+
 }
 
 #author-text-wrapper-full{
