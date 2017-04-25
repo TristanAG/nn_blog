@@ -506,6 +506,9 @@ p{
 #mini-posts-mobile{
   display: none;
 }
+#mini-posts-mobile a{
+  text-decoration: none;
+}
 @media (max-width: 620px){
   #mini-posts-full{
     display: none;
