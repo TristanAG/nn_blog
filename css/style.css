@@ -258,7 +258,7 @@ ul{
 }
 .post-preview a{
   text-decoration: none;
-  color: black;
+  color: red;
 }
 /*.post-preview a:hover{
   text-decoration: underline;
@@ -456,9 +456,19 @@ p{
   transition: .3s;
   color: gray;
 }
+.post-preview a .read-more p{
+  color: #064880;
+  
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  transition: 0s;
+}
 .post-preview a:hover .read-more p{
   color: #064880;
   font-weight: bold;
+
+  text-decoration: underline;
 }
 
 @media (min-width: 401px){
@@ -638,7 +648,7 @@ footer .social-icons h5 i{
   max-width: 100%;
   width: 1000px;
   /*border: 1px solid purple;*/
-
+  margin-bottom: 22px;
 }
 
 .author-component-left-pane{
