@@ -98,6 +98,7 @@ h5 i:hover{
 
 .social-sharing{
   text-align: right;
+
 }
 .social-sharing i{
   font-size: 1.8em;
@@ -285,6 +286,17 @@ b{
 
   font-size: 1.2em;
 }
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #000;
+
+  font-size: 1.3em;
+  margin-bottom: 4px;
+}
+
 .tagline{
   font-family: 'Lora', serif;
   font-weight: 400;
@@ -458,7 +470,7 @@ p{
 }
 .post-preview a .read-more p{
   color: #064880;
-  
+
   font-weight: bold;
   text-align: right;
   text-decoration: none;
