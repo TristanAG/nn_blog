@@ -707,5 +707,8 @@ footer .social-icons h5 i{
   .author-component-right-pane{
     width: 100%;
   }
+  .author-component-right-pane .title{
+    text-align: center;
+  }
 
 }
