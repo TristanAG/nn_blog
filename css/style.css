@@ -259,7 +259,7 @@ ul{
 }
 .post-preview a{
   text-decoration: none;
-  color: red;
+  /*color: red;*/
 }
 /*.post-preview a:hover{
   text-decoration: underline;
@@ -269,7 +269,7 @@ ul{
   font-weight: 700;
   font-style: italic;
   color: #000;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 b{
   font-family: 'Lora', serif;
@@ -355,6 +355,13 @@ p{
 
 .author-bio{
 
+}
+
+.author-link a{
+  font-size: .88em;
+
+  text-decoration: underline;
+  color: #2f2f2f;
 }
 
 #author-text-wrapper-full{
@@ -464,10 +471,16 @@ p{
   margin-top: -10px;
 }
 .read-more p{
-  text-align: left;
+
   transition: .3s;
   color: gray;
 }
+/*@media (max-width: 800px){
+  .read-more{
+    text-align:
+  }
+}*/
+
 .post-preview a .read-more p{
   color: #064880;
 
@@ -481,6 +494,11 @@ p{
   font-weight: bold;
 
   text-decoration: underline;
+}
+@media (max-width: 799px){
+  .post-preview a .read-more p{
+    text-align: left;
+  }
 }
 
 @media (min-width: 401px){
@@ -679,4 +697,15 @@ footer .social-icons h5 i{
   /*border: 1px solid green;*/
   /*padding-left: 20px;*/
   width: 61%;
+}
+
+@media(max-width: 400px){
+  .author-component-left-pane{
+    width: 100%;
+    text-align: center;
+  }
+  .author-component-right-pane{
+    width: 100%;
+  }
+
 }
