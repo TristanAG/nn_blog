@@ -297,6 +297,13 @@ h1{
   margin-bottom: 4px;
 }
 
+.buffer{
+  padding-top: 40px;
+}
+@media(max-width: 799px){
+
+}
+
 .tagline{
   font-family: 'Lora', serif;
   font-weight: 400;
