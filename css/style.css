@@ -498,15 +498,15 @@ p{
 }*/
 
 .post-preview a .read-more p{
-  color: #064880;
+  color: #00accd;
 
-  font-weight: bold;
+  
   text-align: right;
   text-decoration: none;
   transition: 0s;
 }
 .post-preview a:hover .read-more p{
-  color: #064880;
+  color: #00accd
   font-weight: bold;
 
   text-decoration: underline;
