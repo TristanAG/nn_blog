@@ -14,6 +14,7 @@ img{
 a{
   color: #004680;
 }
+
 a:hover{
   color: #002747;
   text-decoration: underline;
@@ -92,7 +93,7 @@ h5 i:hover{
   cursor: pointer;
 }
 
-.social-icons{ text-align: right }
+.social-icons{ text-align: right; }
 .social-icons i{
   margin-left: 10px;
   margin-right: 10px;
@@ -500,7 +501,7 @@ p{
 .post-preview a .read-more p{
   color: #00accd;
 
-  
+
   text-align: right;
   text-decoration: none;
   transition: 0s;
@@ -680,17 +681,26 @@ footer img{
   margin-top: 18px;
   margin-bottom: -22px;
 
-  width: 180px;
+  width: 290px;
+
+}
+.social-icons-footer{
+
 
 }
 
-footer .social-icons h5 i{
+.social-icons-footer h5{
+  text-align: center;
+}
+
+footer .social-icons-footer h5 i{
+
   margin-top: 12px;
   margin-bottom: 4px;
   color: #004680;
-  padding-left: 10px;
-  padding-right: 10px;
-
+  padding-left: 8px;
+  padding-right: 24px;
+  
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
