@@ -674,6 +674,7 @@ footer{
   text-align: center;
   height: 165px;
   margin-top: 24px;
+  border-top: 1px solid #dedfe2;
 }
 footer img{
   margin-top: 18px;
