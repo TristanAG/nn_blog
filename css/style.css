@@ -206,13 +206,37 @@ h5 i:hover{
   }*/
 }
 
-#hero-image{
+
+
+#hero-image-full{
+
   /*z-index: 0;*/
   margin-top: 35px;
   max-width: 100%;
+  position: relative;
+  display: inline-block;
 }
+#hero-image-mobile{
+
+  /*z-index: 0;*/
+  margin-top: 35px;
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+
+@media(max-width: 799px){
+  #hero-image-full{
+    display: none;
+  }
+  #hero-image-mobile{
+    display: inline-block;
+  }
+}
+
+
 @media (min-width: 1170px){
-  #hero-image{
+  #hero-image-full{
 
     /*z-index: 1;*/
     width: 3400px;
