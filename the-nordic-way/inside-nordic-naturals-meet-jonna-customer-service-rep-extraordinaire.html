@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,17 +43,19 @@
   <script src="https://cdn.jsdelivr.net/rrssb/1.6.0/js/rrssb.min.js"></script>
 
   <script>
-    var visible = false
-    $( '#mobile-menu' ).hide()
-    $( '#menu-display' ).click(function () {
-      if( !visible ){
-        visible = true
-        $( '#mobile-menu' ).slideDown( 'fast' )
-      } else {
-        visible = false
-        $( '#mobile-menu' ).slideUp( 'fast' )
-      }
-    })
+    $( document ).ready(function(){
+      var visible = false
+      $( '#mobile-menu' ).hide()
+      $( '#menu-display' ).click(function () {
+        if( !visible ){
+          visible = true
+          $( '#mobile-menu' ).slideDown( 'fast' )
+        } else {
+          visible = false
+          $( '#mobile-menu' ).slideUp( 'fast' )
+        }
+      })
+    });
   </script>
 
   <script>

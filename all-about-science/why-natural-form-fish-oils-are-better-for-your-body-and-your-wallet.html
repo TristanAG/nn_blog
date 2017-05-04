@@ -40,17 +40,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script>
-    var visible = false
-    $( '#mobile-menu' ).hide()
-    $( '#menu-display' ).click(function () {
-      if( !visible ){
-        visible = true
-        $( '#mobile-menu' ).slideDown( 'fast' )
-      } else {
-        visible = false
-        $( '#mobile-menu' ).slideUp( 'fast' )
-      }
-    })
+    $( document ).ready(function(){
+      var visible = false
+      $( '#mobile-menu' ).hide()
+      $( '#menu-display' ).click(function () {
+        if( !visible ){
+          visible = true
+          $( '#mobile-menu' ).slideDown( 'fast' )
+        } else {
+          visible = false
+          $( '#mobile-menu' ).slideUp( 'fast' )
+        }
+      })
+    });
   </script>
 
 </head>
