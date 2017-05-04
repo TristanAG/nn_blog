@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'GothamCond';
+	src: url('GothamCond/GothamCondensed-Medium.eot');
+	src: url('GothamCond/GothamCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+		url('GothamCond/GothamCondensed-Medium.woff') format('woff'),
+		url('GothamCond/GothamCondensed-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
 /***   global   ***/
 body{
   color: #000;
@@ -93,12 +103,12 @@ h5 i:hover{
   cursor: pointer;
 }
 
-.social-icons{ text-align: right; }
+.social-icons{ text-align: right}
 .social-icons i{
   margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-right: 0px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .social-sharing{
@@ -289,21 +299,22 @@ b{
   font-size: 16px;
 }
 .title{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: .02em;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: GothamCond, sans-serif;
+
+  letter-spacing: .016em;
   color: #000;
 
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: .02em;
+  font-family: GothamCond, sans-serif;
+
+  letter-spacing: .016em;
   color: #000;
 
-  font-size: 1.3em;
+  font-size: 1.8em;
   margin-bottom: 4px;
 }
 
@@ -507,7 +518,7 @@ p{
   transition: 0s;
 }
 .post-preview a:hover .read-more p{
-  color: #00accd
+  color: #00accd;
   font-weight: bold;
 
   text-decoration: underline;
